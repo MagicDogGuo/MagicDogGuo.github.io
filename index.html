@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -97,7 +104,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -1187,9 +1194,9 @@
 
       
         
-          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>這篇文章前前後後拖了快一個月才生出來，主要是想要紀錄自己是怎麼把這個網站架設出來的。那為什麼要架設這個網站呢?因為我記性很差，就決定架設一個網站幫自己紀錄平常工作中或生活中學的的一些東西，最常會出現的應該會是平常我用Unity開發遊戲的一些紀錄。好像離題滿多的了哈哈，但作為這個網站的第一篇文章就讓我囉嗦一點吧。</p>
-<p>有人可能會想為什麼我不用Medium、Google Blog寫文章就好了呢?但我就是想要自己架設一個我可以清楚架構的網站嘛！</p>
-<p>這篇文章是參考了很多網站上的大神們的文章才寫出來的，因為對於Jave與網要架設完全是第一次嘗試，如果有錯誤的地方還各位請不吝指教。</p>
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>這篇文章前前後後拖了快一個月才生出來，主要是想要紀錄自己是怎麼把這個網站架設出來的。這個網站主要會紀錄平常工作中或生活中學的的一些東西，最常會出現的應該會是平常使用Unity開發遊戲的一些紀錄，也會放一些目前做過的作品。</p>
+<!--有人可能會想為什麼我不用Medium、Google Blog寫文章就好了呢?但我就是想要自己架設一個我可以清楚架構的網站嘛！-->
+<p>這篇文章是參考了很多網站上的大神們的文章才寫出來的，因為對於Jave與網站架設完全是第一次嘗試，如果有錯誤的地方還請各位不吝指教。</p>
 <h1 id="Hexo是什麼"><a href="#Hexo是什麼" class="headerlink" title="Hexo是什麼"></a>Hexo是什麼</h1><blockquote>
 <p>Hexo 是基於 Node.js 開發的套件，它可以將 Markdown 轉成 HTML，而且提供了豐富的工具。</p>
 </blockquote>
@@ -1361,11 +1368,7 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
 
-
-
-  <span class="post-meta-divider">|</span>
 
 
 
@@ -1389,6 +1392,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
