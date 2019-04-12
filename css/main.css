@@ -2684,7 +2684,7 @@ hr {
   right: -100%;
 }
 .site-subtitle {
-  display: none;
+  display: yes;
 }
 .site-nav-toggle {
   position: static;
